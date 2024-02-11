@@ -172,7 +172,7 @@ img {
 
     .logo a {
         color: rgb(255, 255, 255);
-        font-size: 13px;
+        font-size: 10px;
         background-color: #4000ff;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         border-radius: 100px;
@@ -219,7 +219,7 @@ img {
     .icons {
         margin-top: 7%;
         /* Adjust margin as needed */
-        margin-left: 33%;
+        margin-left: 20%;
     }
     
     .contact{
