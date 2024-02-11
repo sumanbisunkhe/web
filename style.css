@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 2px;
+    background: #111;
+}
+
+.body {}
+
+/* CSS for navigation bar */
+.nav-bar {
+    background-color: #111;
+    overflow: hidden;
+}
+
+.nav-bar a {
+    float: right;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    color: rgb(221, 255, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .nav-bar a {
+        padding: 10px;
+        /* Further reduce padding */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* for logo*/
+
+.logo {
+    float: left;
+    padding: 3px;
+
+
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    background-color: #4000ff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 100px;
+
+}
+
+.logo a:hover {
+    color: #ffffff;
+
+}
+
+/*intro */
+.intro {
+    color: white;
+    padding: 3px;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*image */
+.image {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+
+    width: 15%;
+    background-color: #ffea00;
+    border-color: black;
+    margin-left: 41%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 30px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    border-radius: 20%;
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+    /* Adds a box shadow */
+
+
+}
+
+
+
+
+
+/*icons for social media */
+.icons {
+    margin-top: 3%;
+    /* Adjust margin as needed */
+    margin-left: 43%;
+}
+
+
+.icon {
+    display: inline-block;
+    width: 30px;
+    /* Adjust icon size */
+    height: 30px;
+    /* Adjust icon size */
+    margin-right: 19px;
+    /* Adjust spacing between icons */
+    background-size: cover;
+}
+
+.gmail {
+    background-image: url('pic/gmail.svg');
+    /* Add Gmail icon image */
+}
+
+.linkedin {
+    background-image: url('pic/linkedin.svg');
+    /* Add LinkedIn icon image */
+}
+
+.instagram {
+    background-image: url('pic/instagram.svg');
+    /* Add Instagram icon image */
+}
+
+.facebook {
+    background-image: url('pic/facebook.svg');
+    /* Add Facebook icon image */
+}
+
+
+
+
+
+
+
+
+/*for other devices like mobile*/
+
+@media screen and (max-width: 600px) {
+    .logo {
+        float: left;
+        padding: 3px;
+
+
+    }
+
+    .logo a {
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        background-color: #4000ff;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 100px;
+
+    }
+
+    .logo a:hover {
+        color: #ffffff;
+
+    }
+
+    /*intro */
+    .intro {
+        color: white;
+        padding: 3px;
+        padding-top: 50px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    /*image */
+    .image {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    img {
+
+        width: 45%;
+        background-color: #ffea00;
+        border-color: black;
+        margin-left: 22%;
+        margin-top: 80px;
+        margin-bottom: 0px;
+        padding: 30px;
+        padding-bottom: 0;
+        border-radius: 20%;
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+        /* Adds a box shadow */
+
+
+    }
+
+    .icons {
+        margin-top: 7%;
+        /* Adjust margin as needed */
+        margin-left: 33%;
+    }
+    
+    .contact{
+        margin-top: 15%;
+    }
+
+}
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+p {
+    text-align: justify;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #ffffff;
+
+}
+
+.Contact {
+    padding: 20px;
+
+}
+
+.contact h1 {
+    padding-top: 10%;
+    color: chocolate;
+
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
