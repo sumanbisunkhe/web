@@ -36,7 +36,7 @@
 
 @media screen and (max-width: 600px) {
     .nav-bar a {
-        padding: 10px;
+        padding: 6px;
         /* Further reduce padding */
     }
 }
