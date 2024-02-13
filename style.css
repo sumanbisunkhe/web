@@ -4,7 +4,7 @@
     background: #111;
 }
 
-.body {}
+
 
 /* CSS for navigation bar */
 .nav-bar {
@@ -116,6 +116,7 @@ img {
 
 /*icons for social media */
 .icons {
+    position: relative;
     margin-top: 3%;
     /* Adjust margin as needed */
     margin-left: 43%;
@@ -218,9 +219,11 @@ img {
     }
 
     .icons {
+        position: absolute;
         margin-top: 7%;
         /* Adjust margin as needed */
-        margin-left: 20%;
+        margin-left: 30%;
+        align-items: center;
     }
     
     .contact{
